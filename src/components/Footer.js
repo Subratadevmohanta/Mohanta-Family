@@ -37,6 +37,9 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        <div className="copyright">
+            <p>Copyright © 2023-2030 Subrata Dev Mohanta</p>
+        </div>
     </div>
   )
 }
