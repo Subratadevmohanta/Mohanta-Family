@@ -1,4 +1,3 @@
-import React from "react";
 import "./index.css";
 import Home from "./routes/Home";
 import Events from "./routes/Events";
@@ -15,7 +14,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="/Events" element={<Events />}/>
+        <Route path="/Events" element={<Events />} />
         <Route path="/Members" element={<Members />}/>
         <Route path="/SubFamily" element={<SubFamily />}/>
         <Route path="/OnlineShop" element={<OnlineShop />}/>
