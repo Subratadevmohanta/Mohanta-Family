@@ -20,12 +20,12 @@ import IMG17 from "../assets/Img17.jpg"
 import IMG18 from "../assets/Img18.jpg"
 import IMG19 from "../assets/Img19.jpg"
 import IMG20 from "../assets/Img20.jpg"
-// import IMG21 from "../assets/Img21.jpg"
-// import IMG22 from "../assets/Img22.jpg"
-// import IMG23 from "../assets/Img23.jpg"
-// import IMG24 from "../assets/Img24.jpg"
-// import IMG25 from "../assets/Img25.jpg"
-// import IMG26 from "../assets/Img26.jpg"
+import IMG21 from "../assets/Img21.jpg"
+import IMG22 from "../assets/Img22.jpg"
+import IMG23 from "../assets/Img23.jpg"
+import IMG24 from "../assets/Img24.jpg"
+import IMG25 from "../assets/Img25.jpg"
+import IMG26 from "../assets/Img26.jpg"
 
 import React from 'react'
 
@@ -273,7 +273,7 @@ const Member = () => {
                 <Link to="" className="btn btn-light">FaceBook</Link>
             </div>
         </div>
-        {/* <div className="mycard">
+        <div className="mycard">
             <div className="cimg">
                 <img src={IMG21} alt="IMG6"/>
             </div>
@@ -344,7 +344,7 @@ const Member = () => {
                 <Link to="" className="btn">WebSite</Link>
                 <Link to="" className="btn btn-light">FaceBook</Link>
             </div>
-        </div> */}
+        </div>
     </div>
     </div>
   )
