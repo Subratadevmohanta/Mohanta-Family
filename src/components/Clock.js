@@ -1,9 +1,19 @@
 import React, { Fragment } from 'react'
 import './clock.css'
+import IMG26 from "../assets/Img26.jpg"
+
 
 const Clock = ({timerDays, timerHours, timerMinutes, timerSeconds}) => {
   return (
     <Fragment>
+        <section className='next-event'>
+            <div className='f1'>
+            <img className='event-pic' src={IMG26} alt="IMG26" height={300} width={300}/> 
+            </div>
+            <div className='f1'>
+                <h1>The next event in our family is Sarollo Mohanta's birthday. Which will start after the following time.</h1>
+            </div>
+        </section>
         <section className="timer-container">
             <section className="timer">
                 <div className="clock">

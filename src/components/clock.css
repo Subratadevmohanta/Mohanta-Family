@@ -9,7 +9,9 @@
   
 .clock{
     position: relative;
-    margin: auto;
+    margin-top: 0px;
+    margin-left: 600px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +23,7 @@
     border-radius: 15px;
     border: 2px solid silver;
     box-shadow: 0 0 5px 25px;
+    background: #0e3839;
  }
   
 .clock section{
@@ -38,4 +41,63 @@
 .clock section p{
     color: rgb(18, 222, 62);
     text-shadow: none;
+}
+
+.next-event{
+    display: flex;
+    margin-top: 40px;
+    padding: 100px;
+}
+
+.f1 {
+    width: 50%;
+    padding-left: 5%;
+    flex-direction: column;
+}
+
+.next-event .f1 h1{
+    font-size: 40px;
+}
+
+@media screen and (max-width:640px) {
+    .next-event{
+        display: block;
+        margin-top: 30px;
+        margin-left: 80px;
+        padding: 70px;
+    }
+
+    .f1{
+        margin-bottom: 60px;
+        padding: 0;
+        margin: 0;
+        text-decoration-line: unset;
+    }
+
+    .f1 h1{
+        margin-left: -140px;
+    }
+
+    .event-pic{
+        margin-left: -150px;
+    }
+
+    .next-event .f1 h1{
+        font-size: 20px;
+    }
+
+    .clock{
+        position: relative;
+        margin-top: 50px;
+        margin-left: 0px;
+        padding: 10px;
+        display: flex;
+        height: 100px;
+        width: 270px;
+    }
+
+    .clock section p{
+        font-size: 1.5rem;
+    }
+    
 }
