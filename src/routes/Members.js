@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import HeroImg2 from '../components/HeroImg2'
-// import Member from '../components/Member'
+import Member from '../components/Member'
 
 
 
@@ -14,7 +14,7 @@ const Members = () => {
     <div>
       <Navbar />
       <HeroImg2 />
-      {/* <Member /> */}
+      <Member />
       <Footer />
     </div>
   )

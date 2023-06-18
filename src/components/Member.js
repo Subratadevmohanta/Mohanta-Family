@@ -7,25 +7,25 @@ import IMG4 from "../assets/Img4.jpg"
 import IMG5 from "../assets/Img5.jpg"
 import IMG6 from "../assets/Img6.jpg"
 import IMG7 from "../assets/Img7.jpg"
-import IMG8 from "../assets/Img8.jpg"
-import IMG9 from "../assets/Img9.jpg"
-import IMG10 from "../assets/Img10.jpg"
-import IMG11 from "../assets/Img11.jpg"
-import IMG12 from "../assets/Img12.jpg"
-import IMG13 from "../assets/Img13.jpg"
-import IMG14 from "../assets/Img14.jpg"
-import IMG15 from "../assets/Img15.jpg"
-import IMG16 from "../assets/Img16.jpg"
-import IMG17 from "../assets/Img17.jpg"
-import IMG18 from "../assets/Img18.jpg"
-import IMG19 from "../assets/Img19.jpg"
-import IMG20 from "../assets/Img20.jpg"
-import IMG21 from "../assets/Img21.jpg"
-import IMG22 from "../assets/Img22.jpg"
-import IMG23 from "../assets/Img23.jpg"
-import IMG24 from "../assets/Img24.jpg"
-import IMG25 from "../assets/Img25.jpg"
-import IMG26 from "../assets/Img26.jpg"
+// import IMG8 from "../assets/Img8.jpg"
+// import IMG9 from "../assets/Img9.jpg"
+// import IMG10 from "../assets/Img10.jpg"
+// import IMG11 from "../assets/Img11.jpg"
+// import IMG12 from "../assets/Img12.jpg"
+// import IMG13 from "../assets/Img13.jpg"
+// import IMG14 from "../assets/Img14.jpg"
+// import IMG15 from "../assets/Img15.jpg"
+// import IMG16 from "../assets/Img16.jpg"
+// import IMG17 from "../assets/Img17.jpg"
+// import IMG18 from "../assets/Img18.jpg"
+// import IMG19 from "../assets/Img19.jpg"
+// import IMG20 from "../assets/Img20.jpg"
+// import IMG21 from "../assets/Img21.jpg"
+// import IMG22 from "../assets/Img22.jpg"
+// import IMG23 from "../assets/Img23.jpg"
+// import IMG24 from "../assets/Img24.jpg"
+// import IMG25 from "../assets/Img25.jpg"
+// import IMG26 from "../assets/Img26.jpg"
 
 import React from 'react'
 
@@ -117,7 +117,7 @@ const Member = () => {
                 <Link to="" className="btn btn-light">FaceBook</Link>
             </div>
         </div>
-        <div className="mycard">
+        {/* <div className="mycard">
             <div className="cimg">
                 <img src={IMG8} alt="IMG6"/>
             </div>
@@ -344,7 +344,7 @@ const Member = () => {
                 <Link to="" className="btn">WebSite</Link>
                 <Link to="" className="btn btn-light">FaceBook</Link>
             </div>
-        </div>
+        </div> */}
     </div>
     </div>
   )
