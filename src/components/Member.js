@@ -14,12 +14,12 @@ import IMG11 from "../assets/Img11.jpg"
 import IMG12 from "../assets/Img12.jpg"
 import IMG13 from "../assets/Img13.jpg"
 import IMG14 from "../assets/Img14.jpg"
-// import IMG15 from "../assets/Img15.jpg"
-// import IMG16 from "../assets/Img16.jpg"
-// import IMG17 from "../assets/Img17.jpg"
-// import IMG18 from "../assets/Img18.jpg"
-// import IMG19 from "../assets/Img19.jpg"
-// import IMG20 from "../assets/Img20.jpg"
+import IMG15 from "../assets/Img15.jpg"
+import IMG16 from "../assets/Img16.jpg"
+import IMG17 from "../assets/Img17.jpg"
+import IMG18 from "../assets/Img18.jpg"
+import IMG19 from "../assets/Img19.jpg"
+import IMG20 from "../assets/Img20.jpg"
 // import IMG21 from "../assets/Img21.jpg"
 // import IMG22 from "../assets/Img22.jpg"
 // import IMG23 from "../assets/Img23.jpg"
@@ -201,7 +201,7 @@ const Member = () => {
                 <Link to="" className="btn btn-light">FaceBook</Link>
             </div>
         </div>
-        {/* <div className="mycard">
+        <div className="mycard">
             <div className="cimg">
                 <img src={IMG15} alt="IMG6"/>
             </div>
@@ -273,7 +273,7 @@ const Member = () => {
                 <Link to="" className="btn btn-light">FaceBook</Link>
             </div>
         </div>
-        <div className="mycard">
+        {/* <div className="mycard">
             <div className="cimg">
                 <img src={IMG21} alt="IMG6"/>
             </div>
